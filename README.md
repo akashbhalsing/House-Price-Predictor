@@ -1,3 +1,7 @@
-### Mymodal_deployment is a House price prediction web application based on support vector machine regression modal and deploy it using flask mini  web framework.
-#### I have train support vector regression model on MSERealestate.csv data and then deploy it using the Python's mini web framework flask.
-This web application will predict the house prize for you and then shows the result on the application. for predicting house prize you have to give some inputs to the model.
+# House Price Predictor
+
+A web app that predicts house prices using a Support Vector Regression (SVR) model, deployed with Flask.
+
+The model is trained on the `MSERealestate.csv` dataset using scikit-learn's Support Vector Machine regression. Users enter a few property details through the web interface, and the app returns a predicted price.
+
+**Tech stack:** Python, scikit-learn, Flask
